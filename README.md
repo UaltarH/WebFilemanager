@@ -1,118 +1,77 @@
-elFinder
-========
-
+Web Filemanager
+===============
+Description :
+-------------
 <pre>
-      _ ______ _           _           
-     | |  ____(_)         | |          
-  ___| | |__   _ _ __   __| | ___ _ __ 
- / _ \ |  __| | | '_ \ / _` |/ _ \ '__|
-|  __/ | |    | | | | | (_| |  __/ |   
- \___|_|_|    |_|_| |_|\__,_|\___|_|   
-</pre>
+Elfinder is a powerful web based filemanager, built in JS and JQuery. Elfinder features all basic and necessary actions like moving, creating, editing, deleting, renaming etc...
+Many free hosting providers doesn't provide online web filemanagement, forcing us to edit/create file/folder in local and upload theme with FTP client.
+Actually you can find some solutions on internet :
+  - Pydio (Ajaxplorer) (filemanager with editor etc..)
+  - ckfinder (filemanager)
+  - Codeanywhere (online editor with an integrated ftp client)
+  - Codey (online editor with an integrated ftp client)
+  
+Why elfinder ? Ajaxplorer is much much much better !!
 
-elFinder is an open-source file manager for web, written in JavaScript using
-jQuery UI. Creation is inspired by simplicity and convenience of Finder program
-used in Mac OS X operating system.
+Some filemanager doesn't allow file editing.
+Sometimes when you upload files with your ftp client, you encounter some server restrictions, like only popular web formats are allowed.
+Or when you try to install a software it says init_set not allowed for security reasons etc....
+All these reasons makes installations of ajaxplorer or other powerful filemanager impossible to install.
 
+Online file managers are cool, but sometimes it's slow, or you just can't setup ftp server etc....
+
+So the solution for me is Elfinder. It's free, light, NO UGLY (very important :P), simple to use.
+"But ???" Yeah sure, it is not perfect :S
+The base editor is really miserable, no synthax highliths, no WYSIWYG editor, it only shows up a little pop up o.O"
+WYSIWYG editor integration is complicate, I still doesn't knwo how to ...
+The only solution I found, is to integrate codemirror synthax highlighter.
+
+"WYSIWYG editor integration is complicate, I still doesn't knwo how to ..." You kidding me, all these solution on internet, are you blind ?
+No no, I'm not, if you read better, it's ALL about integration of elfinder INTO a WYSIWYG editor.
+
+
+Wish it will be usefull for someone !! o.O"
+  </pre>
+
+Used :
+-----
+- [Elfinder (filemanager)] (http://elfinder.org/)
+- [Codemirror (synthax highlighter)] (http://codemirror.net/)
 
 Features
 --------
-
- * All operations with files and folders on a remote server (copy, move,
-   upload, create folder/file, rename, etc.)
- * High performance server beckend and light client UI
- * Multi-root support
- * Local file system, MySQL, FTP volume storage drivers
- * Background file upload with Drag & Drop HTML5 support
- * List and Icons view
- * Kayboard shortcuts
- * Standart methods of file/group selection using mouse or keyboard
- * Move/Copy files with Drag & Drop
- * Archives create/extract (zip, rar, 7z, tar, gzip, bzip2)
- * Rich context menu and toolbar
- * Quicklook, preview for common file types
- * Edit text files and images
- * "Places" for your favorites
- * Calculate directory sizes
- * Thumbnails for image files
- * Easy to integrate with web editors (elRTE, CKEditor, TinyMCE)
- * Flexible configuration of access rights, upload file types, user interface
-   and other
- * Extensibility
- * Simple client-server API based on JSON
+* All operations with files and folders on a remote server (copy, move,
+upload, create folder/file, rename, etc.)
+* High performance server beckend and light client UI
+* Multi-root support
+* Local file system, MySQL, FTP volume storage drivers
+* Background file upload with Drag & Drop HTML5 support
+* List and Icons view
+* Kayboard shortcuts
+* Standart methods of file/group selection using mouse or keyboard
+* Move/Copy files with Drag & Drop
+* Archives create/extract (zip, rar, 7z, tar, gzip, bzip2)
+* Rich context menu and toolbar
+* Quicklook, preview for common file types
+* Edit text files **now with synthax highligths, wrapped line, numbered lines**
+* Edit images
+* "Places" for your favorites
+* Calculate directory sizes
+* Thumbnails for image files
+* Easy to integrate with web editors (elRTE, CKEditor, TinyMCE)
+* Flexible configuration of access rights, upload file types, user interface
+and other
+* Extensibility
+* Simple client-server API based on JSON
 
 
 Requirements
 ------------
 
 ### Client
- * Modern browser. elFinder was tested in Firefox 10, Internet Explorer 8+,
-   Safari 5, Opera 11 and Chrome 15+
+* Modern browser. elFinder was tested in Firefox 10, Internet Explorer 8+,
+Safari 5, Opera 11 and Chrome 15+
 
 ### Server
- * Any web server
- * PHP 5.2+ (for thumbnails - mogrify utility or GD/Imagick module)
-
-
-3rd party connectors
---------------------
- * [Python](https://github.com/Studio-42/elfinder-python)
- * [Django](https://github.com/mikery/django-elfinder)
- * [Ruby/Rails](https://github.com/phallstrom/el_finder)
- * [Java Servlet](https://github.com/Studio-42/elfinder-servlet)
- * [ASP.NET Integration](http://code.google.com/p/elfinderintegration/)
- * [elFinder .Net connector](http://elfinderconnectornet.codeplex.com/)
-
-
-Support
--------
-
- * [Homepage](http://elfinder.org)
- * [Wiki](https://github.com/Studio-42/elFinder/wiki)
- * [Issues](https://github.com/Studio-42/elFinder/issues)
- * [Forum](http://elfinder.org/forum/)
- * <dev@std42.ru>
-
-
-Authors
--------
-
- * Chief developer: Dmitry "dio" Levashov <dio@std42.ru>
- * Maintainer: Troex Nevelin <troex@fury.scancode.ru>
- * Developers: Alexey Sukhotin <strogg@yandex.ru>, Naoki Sawada <hypweb@gmail.com>
- * Icons: [PixelMixer](http://pixelmixer.ru), [Yusuke Kamiyamane](http://p.yusukekamiyamane.com)
-
-We hope our tools will be helpful for you.
-
-
-License
--------
-
-elFinder is issued under a 3-clauses BSD license.
-
-<pre>
-Copyright (c) 2009-2012, Studio 42
-All rights reserved.
-
-Redistribution and use in source and binary forms, with or without
-modification, are permitted provided that the following conditions are met:
-    * Redistributions of source code must retain the above copyright
-      notice, this list of conditions and the following disclaimer.
-    * Redistributions in binary form must reproduce the above copyright
-      notice, this list of conditions and the following disclaimer in the
-      documentation and/or other materials provided with the distribution.
-    * Neither the name of the Studio 42 Ltd. nor the
-      names of its contributors may be used to endorse or promote products
-      derived from this software without specific prior written permission.
-
-THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
-ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
-WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
-DISCLAIMED. IN NO EVENT SHALL "STUDIO 42" BE LIABLE FOR ANY DIRECT, INDIRECT,
-INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
-LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR
-PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF
-LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE
-OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF
-ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
-</pre>
+* Any web server
+* PHP 5.2+ (for thumbnails - mogrify utility or GD/Imagick module)
