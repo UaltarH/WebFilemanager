@@ -115,7 +115,6 @@ $().ready(function() {
 
 	var elf = $('#elfinder').elfinder({
 		url : 'php/connector.php',
-
 		commandsOptions: {
 
 			edit : {
