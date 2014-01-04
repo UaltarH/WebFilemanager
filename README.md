@@ -22,15 +22,15 @@ Online file managers are cool, but sometimes it's slow, or you just can't setup 
 
 So the solution for me is Elfinder. It's free, light, NO UGLY (very important :P), simple to use.
 "But ???" Yeah sure, it is not perfect :S
-The base editor is really miserable, no synthax highliths, no WYSIWYG editor, it only shows up a little pop up o.O"
-WYSIWYG editor integration is complicate, I still doesn't knwo how to ...
+The base editor is really miserable, no synthax highlights, no WYSIWYG editor, it only shows up a little pop up o.O"
+WYSIWYG editor integration is complicate, I still don't know how to ...
 The only solution I found, is to integrate codemirror synthax highlighter.
 
-"WYSIWYG editor integration is complicate, I still doesn't knwo how to ..." You kidding me, all these solution on internet, are you blind ?
+"WYSIWYG editor integration is complicate, I still don't know how to ..." You kidding me, all these solution on internet, are you blind ?
 No no, I'm not, if you read better, it's ALL about integration of elfinder INTO a WYSIWYG editor.
 
 
-Wish it will be usefull for someone !! o.O"
+Wish it will be usefull to someone !! o.O"
 </pre>
 
 Used :
