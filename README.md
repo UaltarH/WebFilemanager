@@ -104,10 +104,10 @@ Codemirror integration :
 2. extract files to the root of your files.
 3. open elfinder.html, and add this in the head
 <pre>
-<script src="codemirror/lib/codemirror.js"></script>
-<link rel="stylesheet" href="codemirror/lib/codemirror.css">
-<link rel="stylesheet" href="codemirror/theme/ambiance.css">
-<script src="codemirror/mode/javascript/javascript.js"></script>
+\<script src="codemirror/lib/codemirror.js"></script>
+\<link rel="stylesheet" href="codemirror/lib/codemirror.css">
+\<link rel="stylesheet" href="codemirror/theme/ambiance.css">
+\<script src="codemirror/mode/javascript/javascript.js"></script>
 </pre>
 4. change your init code to this :
 <pre>
